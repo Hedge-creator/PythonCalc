@@ -8,3 +8,8 @@ if (operator == "+"):
 elif (operator == "-"):
    print("Разность значений = ",  (number1 - number2)
 elif (operator == "*"):
+   print("Произведение значений = ",  (number1 * number2)
+elif (operator == "/"):
+   if (number2 == 0):
+      print("На ноль делить нельзя!")
+   else:
