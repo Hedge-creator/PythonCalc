@@ -13,3 +13,8 @@ elif (operator == "/"):
    if (number2 == 0):
       print("На ноль делить нельзя!")
    else:
+       print("Частное значений = ", (number1 / number2)
+elif (operator == "**"):
+      print("Степень значений = ", (number1 ** number2)
+else:
+    print("Вы неправильно ввели операцию или ничего не ввели! Попробуйте ещё раз.") 
